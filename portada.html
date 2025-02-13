@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerca de Mí</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center my-4">Acerca de Mí</h1>
+        <div class="row">
+            <div class="col-md-4" id="hobby" onclick="showAlert('hobby')">
+                <img src="https://www.solobasket.com/sites/default/files/boston_celtics_campeon.jpg" alt="Hobby" class="img-fluid mb-3">
+                <h2>Hobby Favorito</h2>
+                <p> Jugar Basketball</p>
+            </div>
+            <div class="col-md-4" id="comida">
+                <img src="https://www.infobae.com/resizer/v2/V5OBIGSGRJHVXMLAD73B55LDFY.jpg?auth=b74c0437e94671fbd89aa23f3d1efb8fbf6fb6c8a7bae9ca791f23e52592c948&smart=true&width=1200&height=900&quality=85" alt="Comida" class="img-fluid mb-3">
+                <h2>Comida Favorita</h2>
+                <p>Nachos</p>
+            </div>
+            <div class="col-md-4" id="pelicula" ondblclick="toggleContent('pelicula')">
+                <img src="https://m.media-amazon.com/images/S/pv-target-images/c7abeafb0dbc8bc1e315ae8b5e0fa26427a0e8a8bbc9c078c1ef381e5b4b1641.jpg" alt="Película" class="img-fluid mb-3">
+                <h2>Película o Serie Favorita</h2>
+                <p>Grandes Heroes</p>
+            </div>
+            <div class="col-md-4" id="color" onmouseout="resetColor('color')">
+                <img src="https://png.pngtree.com/background/20210715/original/pngtree-blue-pure-color-simple-background-picture-image_1323911.jpg" alt="Color" class="img-fluid mb-3">
+                <h2>Color Favorito</h2>
+                <p>Azul</p>
+            </div>
+            <div class="col-md-4" id="artista" onfocus="highlight('artista')" tabindex="0">
+                <img src="https://lh3.googleusercontent.com/ReohRVvsRL06Zw0brTc6r5zCAzxH1xjdVBRuf12iMbWUjb-zievEGKfiu-_-rUTPWzDebl_cUw2lcqk=w2880-h1200-p-l90-rj" alt="Artista" class="img-fluid mb-3">
+                <h2>Artista o Deportista Favorito</h2>
+                <p>Twenty one Pilots</p>
+            </div>
+            <div class="col-md-4" id="pais" onblur="removeHighlight('pais')" tabindex="0">
+                <img src="https://www.etihad.com/content/dam/eag/etihadairways/etihadcom/Global/sponsorship/sports/manchester-city-football-club/aerial-etihad-stadium-nw.jpg?imwidth=384&imdensity=2.625" alt="País" class="img-fluid mb-3">
+                <h2>País que Me Gustaría Visitar</h2>
+                <p>Reino Unido</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="parte1.js"></script>
+</body>
+</html>
+

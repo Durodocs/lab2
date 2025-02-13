@@ -1,0 +1,44 @@
+body {
+    font-family: 'Calibri', Arial, sans-serif;
+}
+
+h2 {
+    color: #333;
+}
+
+.col-md-4 {
+    border: 1px solid #fae5d3;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 15px; 
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.col-md-4:hover {
+    background-color: #f0f0f0; 
+}
+
+.col-md-4 img {
+    width: 150px;  
+    height: 150px; 
+    object-fit: cover;
+    margin-bottom: 15px;  
+    border-radius: 15px;  
+}
+
+.col-md-4 p {
+    font-size: 16px;
+}
+
+
+.col-md-4:hover h2 {
+    color: #007bff;
+}
+
+.col-md-4:focus {
+    outline: none;
+}
+
+
